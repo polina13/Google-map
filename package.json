@@ -1,7 +1,6 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +21,15 @@
     "gulp-util": "^3.0.7",
     "jshint": "^2.9.1",
     "vinyl-source-stream": "^1.1.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeschen/pingpongJSnodeTEMPLATE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mikeschen/pingpongJSnodeTEMPLATE/issues"
+  },
+  "homepage": "https://github.com/mikeschen/pingpongJSnodeTEMPLATE#readme",
+  "description": ""
 }
