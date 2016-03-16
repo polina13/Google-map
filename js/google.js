@@ -63,7 +63,7 @@ exports.Google.prototype.bicycle = function() {
 }
 
 exports.Google.prototype.bars = function() {
-  var pyrmont = {lat: -33.867, lng: 151.195};
+  var pyrmont = {lat: 37.7833, lng: -122.4167};
 
   map = new google.maps.Map(document.getElementById('map'), {
     center: pyrmont,
@@ -75,7 +75,7 @@ exports.Google.prototype.bars = function() {
   service.nearbySearch({
     location: pyrmont,
     radius: 500,
-    type: ['store']
+    type: ['bar']
   }, callback);
 }
 
