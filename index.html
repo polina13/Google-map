@@ -4,17 +4,21 @@
     <link rel="stylesheet" href="build/css/vendor.css">
     <link rel="stylesheet" href="build/css/styles.css">
     <script src="build/js/vendor.min.js"></script>
+    <script src="js/initMap.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
-    <title>Ping Pong</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxmonmwabLoRq2g1HLNteW3IF4-j0dKpc"></script>
+
+    <title>Google Maps</title>
   </head>
   <body>
     <div class="container">
-      <h1>Get Weather Conditions From Anywhere!</h1>
+      <h1>Get maps on different places around the world!</h1>
       <div class="box">
-        <label for="location">Enter a location:</label>
+        <label for="location">Enter a location/city/state</label>
         <input id="location" type="text">
-        <button class="button" id="weatherLocation">Get Current Humidity!</button>
-        <div class="showWeather"></div>
+        <button class="button" id="mapLocation">Get Map of place chosen!</button>
+        <div class="showMap"></div>
+        <div id="map"></div>
       </div>
     </div>
   </body>

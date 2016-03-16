@@ -1,13 +1,13 @@
 var apiKey = require('./../.env').apiKey;
 
 $(document).ready(function() {
-  $('#weatherLocation').click(function() {
+  $('#mapLocation').click(function() {
     var city = $('#location').val();
     $('#location').val("");
-    $.get('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=' + apiKey).then(function(response) {
-      $('.showWeather').text("The humidity in " + city + " is " + response.main.humidity + "%");
-    }).fail(function(error) {
-      $('.showWeather').text(error.message);
-    });
+      $('.showMap').text("The humidity in " + city + " is%");
   });
 });
+
+// we can do directions
+//  styled maps
+// amount of time it will take to get to a place
