@@ -29,7 +29,7 @@ function locateUser() {
     // it 2 arguments: one for latitude, one for longitude.
     // You could refactor this section to pass google maps your own coordinates rather than using geolocation for the user's current location.
     // But you must use coordinates to use this method.
-    
+
     var userLatLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 
     var myOptions = {
