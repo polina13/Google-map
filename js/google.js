@@ -63,17 +63,17 @@ exports.Google.prototype.bicycle = function() {
 }
 
 exports.Google.prototype.bars = function() {
-  var pyrmont = {lat: 37.7833, lng: -122.4167};
+  var portland = {lat: 45.5200, lng: -122.6819};
 
   map = new google.maps.Map(document.getElementById('map'), {
-    center: pyrmont,
+    center: portland,
     zoom: 15
   });
 
   infowindow = new google.maps.InfoWindow();
   var service = new google.maps.places.PlacesService(map);
   service.nearbySearch({
-    location: pyrmont,
+    location: portland,
     radius: 500,
     type: ['bar']
   }, callback);
