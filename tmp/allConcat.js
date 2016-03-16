@@ -8,4 +8,8 @@ $(document).ready(function() {
   $('#locateLocal').click(function() {
     newGoogle.bicycle();
   });
+
+  $('#checkBars').click(function() {
+    newGoogle.bars();
+  });
 });
